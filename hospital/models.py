@@ -18,4 +18,7 @@ class Testimonial(models.Model):
     description = models.TextField()
     image = models.ImageField(upload_to="feedback/")
 
-
+# Model representing a hospital department
+class Department(models.Model):
+    name = models.CharField(max_length=100)
+    # ...existing code...
