@@ -53,3 +53,9 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'your email'
 EMAIL_HOST_PASSWORD = 'your email password'
 ```
+
+# HealthCare-Django
+
+A Django-based healthcare management system for appointments, hospital administration, and patient records.
+
+_Last updated: September 22, 2025_
