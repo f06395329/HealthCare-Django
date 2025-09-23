@@ -21,4 +21,9 @@ class Testimonial(models.Model):
 # Model representing a hospital department
 class Department(models.Model):
     name = models.CharField(max_length=100)
-    # ...existing code...
+
+class Department(models.Model):
+    """
+    Represents a department within the hospital, such as Cardiology or Neurology.
+    """
+    name = models.CharField(max_length=100)
