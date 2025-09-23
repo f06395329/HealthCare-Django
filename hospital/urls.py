@@ -1,6 +1,8 @@
 from django.urls import path
 from . import views
 
+# Main URL configuration for the HealthCare-Django project
+
 urlpatterns = [
     path('', views.hospitalView.as_view(), name='hospital'),
     # path('service/', views.service, name='service'),
