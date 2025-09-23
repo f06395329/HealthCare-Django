@@ -1,3 +1,5 @@
+# This file contains models for managing appointment-related data.
+
 from django.db import models
 
 class Doctor(models.Model):
