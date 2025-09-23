@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.views.generic import ListView, DetailView, TemplateView
 from .models import Doctor
 
+# Views for handling hospital-related HTTP requests
 
 class hospitalView(TemplateView):
     template_name = 'index.html'
