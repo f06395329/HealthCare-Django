@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
+# List of Django applications enabled for this project
 
 INSTALLED_APPS = [
     'jet',
