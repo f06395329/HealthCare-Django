@@ -4,6 +4,7 @@ from django.views.generic import View
 
 from hospital.models import Doctor
 from .models import Appointment
+import logging
 
 class AppointmentView(View):
     def get(self, request, *args, **kwargs):
@@ -31,3 +32,4 @@ class AppointmentView(View):
         return redirect('appointment')
 
 
+logger = logging.getLogger(__name__)
